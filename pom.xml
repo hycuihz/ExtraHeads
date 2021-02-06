@@ -30,6 +30,10 @@
             <id>bstats-repo</id>
             <url>https://repo.codemc.org/repository/maven-public</url>
         </repository>
+        <repository>
+            <id>lang-utils-repo</id>
+            <url>https://ci.nyaacat.com/maven/</url>
+        </repository>
     </repositories>
 
     <build>
@@ -140,6 +144,12 @@
             <artifactId>bstats-bukkit</artifactId>
             <version>1.8</version>
             <scope>compile</scope>
+        </dependency>
+        
+        <dependency>
+            <groupId>com.meowj</groupId>
+            <artifactId>LangUtils</artifactId>
+            <version>2.4-SNAPSHOT</version>
         </dependency>
     </dependencies>
 </project>
