@@ -1,7 +1,0 @@
-name: ExtraGear
-version: DEV - 12 (git 4570ea2c)
-author: TheBusyBiscuit
-depend: [Slimefun]
-
-api-version: 1.14
-main: io.github.thebusybiscuit.extragear.ExtraGear
